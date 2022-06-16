@@ -22,7 +22,8 @@ The exe file will then be created and stored in the directory /target/debug/acco
 Navigate using your terminal to the directory.
 
 We also included a guide on how to use the commands which pops with just running the tool without any command or the
- ```shell --help 
+ ```shell 
+ --help 
  ``` 
  command.   
 
