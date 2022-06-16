@@ -28,18 +28,18 @@ We also included a guide on how to use the commands which pops with just running
  command.   
 
 ```shell
-$ ./accountscli.exe 
+$ ./gemaaccountscli.exe 
 ```
 
 ```shell
-$ ./accountscli.exe --help
+$ ./gemaaccountscli.exe --help
 ```
 
 
 
 To create a new **account**, use:
 ```shell
-$ ./accountscli.exe --new my-crypto-account # Creates an account.
+$ ./gemaaccountscli.exe --new my-crypto-account # Creates an account.
 ```
 
 result:
@@ -56,16 +56,16 @@ Entries are compose of :
 
 To create an **entry**, use:
 ```shell
-$ ./accountscli.exe --new my-crypto-account "BITCOIN" "0.0010" + # Add an entry with "BITCOIN" as a label and "0.0010" as the amount. With + it is a deposit and - acts as a withdrawal.
+$ ./gemaaccountscli.exe --new my-crypto-account "BITCOIN" "0.0010" + # Add an entry with "BITCOIN" as a label and "0.0010" as the amount. With + it is a deposit and - acts as a withdrawal.
 
-$ ./accountscli.exe --new my-crypto-account "NEAR" "21" + "10/06/2022" "Purchased at Binance" # this one has a date and a note, and it is a withdrawal.
+$ ./gemaaccountscli.exe --new my-crypto-account "NEAR" "21" + "10/06/2022" "Purchased at Binance" # this one has a date and a note, and it is a withdrawal.
 ```
 result:
 ```
 New entry 'BITCOIN' created.
 New entry 'NEAR' created.
 
-$ ./accountscli.exe --list my-crypto-account
+$ ./gemaaccountscli.exe --list my-crypto-account
 
 +-------+---------+--------------------------+-------------------------------+
 | Label | Amount  | Date                     | Note                          |
